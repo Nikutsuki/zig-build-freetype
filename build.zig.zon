@@ -1,0 +1,22 @@
+.{
+    .name = .freetype,
+    .version = "0.1.0",
+    .fingerprint = 0xac2059b6dfb99d97,
+    .dependencies = .{
+        .libpng = .{
+            .url = "git+https://github.com/Nikutsuki/zig-build-libpng.git#bf5bb02c528e85dd05b95a0920ca20daae2e2d19",
+            .hash = "libpng-0.1.0-mFPuBF-6RQAeB6xql5UxPvFyEehINlqVruyeTannTzn8",
+        },
+        .zlib = .{
+            .url = "git+https://github.com/Nikutsuki/zig-build-zlib.git#349c944a849147a6f9e7f58f050641fbaa11b13b",
+            .hash = "zlib-1.3.1-3-7XKzIHNwBLh2r4EiHLsqu-k6WiiZmDhztdKWrgWyrK",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "include",
+        "upstream",
+        "LICENSE",
+    },
+}
